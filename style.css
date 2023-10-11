@@ -71,7 +71,7 @@ h6 {
 
 /* MAIN */
 main {
-	padding: 55px 20px 20px 20px;
+	padding: 4.75rem 1.25rem 1.25rem 1.25rem;
   max-width: 1366px;
   margin: auto;
 }
@@ -94,6 +94,13 @@ p {
   font-family: var(--font-family-serif);
   line-height: 1.6rem;
   margin-bottom: 1rem;
+}
+
+@media screen and (min-width: 650px) {
+  main .container {
+    border: 1px solid var(--border-color);
+    padding: 1.25rem;
+  }
 }
 
 /* TOP BAR */
@@ -275,4 +282,52 @@ button.listen svg.play-icon {
 button.listen svg.wave-icon {
   color: var(--grey);
   margin-right: .5rem;
+}
+
+/* INFO BOX */
+aside.info {
+  border: 1px solid var(--border-color);
+  padding: 1.25rem;
+  margin-bottom: 1rem;
+}
+aside.info figure {
+  border: 1px solid var(--border-color);
+  border-radius: .5rem;
+  width: 100%;
+  overflow: hidden
+}
+aside.info figure img {
+  width: 100%;
+}
+aside.info figure figcaption {
+  background-color: var(--white);
+  padding: .5rem;
+  font-size: .85rem;
+}
+aside.info hr {
+  border: none;
+  border-top: 1px solid var(--border-color);
+  margin-top: 1.25rem;
+  margin-bottom: 1rem;
+}
+aside.info a {
+  text-decoration: none;
+}
+aside.info a:hover {
+  text-decoration: underline;
+}
+aside.info .facts > div{
+  font-size: .85rem;
+  margin-bottom: .5rem;
+}
+aside.info .facts > div:last-child {
+  margin-bottom: 0rem;
+}
+
+@media screen and (min-width: 650px) {
+  aside.info {
+    float: right;
+    width: 275px;
+    margin: 0 0 1rem 1rem;
+  }
 }
