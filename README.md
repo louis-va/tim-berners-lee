@@ -7,9 +7,11 @@ A landing page to present Tim Berners-Lee, the inventor of HTML
 
 ## Description
 
-[image]
+![Screenshot](screenshot.png)
 
-I worked on this project in october 2023 as a consolidation exercise to make sure I understood HTML, CSS and Vite
+I worked on this project in october 2023 as a consolidation exercise to make sure I understood HTML, CSS and Vite.
+
+It was an exercise of the Becode bootcamp. The goal was to recreate a page based on a mockup. The mockup was taken from the [Tim Berners-Lee page](https://www.britannica.com/biography/Tim-Berners-Lee) of the [Britannica](https://www.britannica.com/) website
 
 
 ## Built With
