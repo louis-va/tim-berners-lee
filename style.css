@@ -198,6 +198,7 @@ p {
   display: inline-flex;
   align-items: center;
   padding: .5rem .75rem .5rem .25rem;
+  margin-left: .5rem; 
   font-weight: 700;
   font-size: .75rem;
   border-radius: .5rem;
