@@ -90,6 +90,11 @@ a:hover {
 main .container {
   max-width: 790px;
 }
+p {
+  font-family: var(--font-family-serif);
+  line-height: 1.6rem;
+  margin-bottom: 1rem;
+}
 
 /* TOP BAR */
 .top-bar {
@@ -251,6 +256,7 @@ button.listen {
   padding: .35rem .25rem;
   gap: 4px;
   margin-top: 1rem;
+  margin-bottom: 2rem;
   box-shadow: var(--box-shadow-md);
   background-color: var(--white);
 }
