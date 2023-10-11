@@ -1,7 +1,7 @@
 <!-- ABOUT THE PROJECT -->
 # Tim Berners-Lee
 
-A landing page to present Tim Berners-Lee, the inventor of HTML
+A landing page to present Tim Berners-Lee, the inventor of HTML.
 
 [View project live](https://louis-va.github.io/tim-berners-lee/)
 
