@@ -411,6 +411,22 @@ aside.info a {
 aside.info a:hover {
   text-decoration: underline;
 }
+aside.info a.tag {
+  display: inline-block;
+  background-color: var(--orange-light);
+  text-decoration: none;
+  color: var(--black);
+  font-weight: 700;
+  font-size: .85rem;
+  padding: 0px 6px;
+  border-radius: .5rem;
+}
+aside.info .facts dt, aside.info .facts dd {
+  display: inline;
+}
+aside.info .facts dt {
+  font-weight: 700;
+}
 aside.info .facts > div{
   font-size: .85rem;
   margin-bottom: .5rem;
