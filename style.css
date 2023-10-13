@@ -50,9 +50,8 @@ h6 {
 	--red: #963100;
 	--red-dark: #561c00;
 	--grey: #666;
-  --grey-light: #fafafa;
 	--white: #fff;
-	--body-bg: #fff;
+	--body-bg: #ffffff;
 	--body-color: #1a1a1a;
 	--border-color: #ddd;
 	--box-shadow-sm: 0 0 4px rgba(0, 0, 0, 0.04);
@@ -73,6 +72,7 @@ h6 {
 @media screen and (min-width: 650px) {
   :root {
     font-size: 1.15rem;
+    --body-bg: #fafafa;
   }
 }
 
@@ -110,7 +110,6 @@ button:hover {
 @media screen and (min-width: 650px) {
   main {
     padding: 4.75rem 2rem 2rem 2rem;
-    background-color: var(--grey-light);
   }
   main .container {
     border: 2px solid var(--border-color);
